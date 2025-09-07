@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="BannerItemCell2" id="gTV-IL-0wX" customClass="ImageBannerCollectionViewCell" customModule="BookingClone" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="284" height="129"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="284" height="129"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="paZ-GG-pic">
+                        <rect key="frame" x="0.0" y="0.0" width="284" height="129"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="destination2" translatesAutoresizingMaskIntoConstraints="NO" id="EjW-1X-5lt">
+                                <rect key="frame" x="0.0" y="0.0" width="284" height="129"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Explore Saudi" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F0g-kp-RBH">
+                                <rect key="frame" x="11" y="66" width="222" height="23"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="200 properties" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uJ0-ki-C1D">
+                                <rect key="frame" x="11" y="94" width="173" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="EjW-1X-5lt" firstAttribute="top" secondItem="paZ-GG-pic" secondAttribute="top" id="JXk-ny-Vgk"/>
+                            <constraint firstAttribute="bottom" secondItem="EjW-1X-5lt" secondAttribute="bottom" id="O7M-pk-aD1"/>
+                            <constraint firstAttribute="trailing" secondItem="EjW-1X-5lt" secondAttribute="trailing" id="OLP-aa-YZj"/>
+                            <constraint firstAttribute="trailing" secondItem="uJ0-ki-C1D" secondAttribute="trailing" constant="100" id="WLI-nM-Xmf"/>
+                            <constraint firstAttribute="trailing" secondItem="F0g-kp-RBH" secondAttribute="trailing" constant="51" id="dww-OQ-QNI"/>
+                            <constraint firstItem="F0g-kp-RBH" firstAttribute="top" secondItem="paZ-GG-pic" secondAttribute="top" constant="66" id="gvh-vP-1Ha"/>
+                            <constraint firstItem="EjW-1X-5lt" firstAttribute="leading" secondItem="paZ-GG-pic" secondAttribute="leading" id="hCI-Md-AMc"/>
+                            <constraint firstItem="uJ0-ki-C1D" firstAttribute="top" secondItem="F0g-kp-RBH" secondAttribute="bottom" constant="5" id="kem-lF-OAC"/>
+                            <constraint firstItem="uJ0-ki-C1D" firstAttribute="leading" secondItem="F0g-kp-RBH" secondAttribute="leading" id="t0l-we-5bi"/>
+                            <constraint firstItem="F0g-kp-RBH" firstAttribute="leading" secondItem="paZ-GG-pic" secondAttribute="leading" constant="11" id="vyL-Ta-xHM"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="paZ-GG-pic" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="aUf-sr-BYs"/>
+                <constraint firstItem="paZ-GG-pic" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="eQP-7o-2JQ"/>
+                <constraint firstAttribute="bottom" secondItem="paZ-GG-pic" secondAttribute="bottom" id="m3N-eu-FKv"/>
+                <constraint firstAttribute="trailing" secondItem="paZ-GG-pic" secondAttribute="trailing" id="rHy-WF-yS0"/>
+            </constraints>
+            <size key="customSize" width="284" height="129"/>
+            <connections>
+                <outlet property="bannerImage" destination="EjW-1X-5lt" id="ZOj-bU-zRv"/>
+                <outlet property="placesLabel" destination="F0g-kp-RBH" id="Vf3-KL-7BI"/>
+            </connections>
+            <point key="canvasLocation" x="227.48091603053433" y="46.83098591549296"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="destination2" width="1000" height="667"/>
+    </resources>
+</document>

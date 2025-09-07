@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="BannerItemCell" id="gTV-IL-0wX" customClass="BannerCollectionViewCell" customModule="BookingClone" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="275" height="118"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="275" height="118"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aAE-Dx-CWe">
+                        <rect key="frame" x="0.0" y="0.0" width="275" height="118"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Genius                                                        10% Discount Sadia, you're at Genius Level 1 in" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CM9-jc-ekY">
+                                <rect key="frame" x="15" y="15" width="245" height="61"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="275" id="6NG-kx-h6f"/>
+                            <constraint firstItem="CM9-jc-ekY" firstAttribute="top" secondItem="aAE-Dx-CWe" secondAttribute="top" constant="15" id="LU5-s1-v9c"/>
+                            <constraint firstAttribute="trailing" secondItem="CM9-jc-ekY" secondAttribute="trailing" constant="15" id="X4n-ta-BMY"/>
+                            <constraint firstAttribute="height" constant="118" id="jR2-3z-pdt"/>
+                            <constraint firstItem="CM9-jc-ekY" firstAttribute="leading" secondItem="aAE-Dx-CWe" secondAttribute="leading" constant="15" id="snQ-0H-csh"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" red="0.26274511220000002" green="0.50980395079999996" blue="0.84705877299999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="aAE-Dx-CWe" secondAttribute="trailing" id="1Ip-hr-dKn"/>
+                <constraint firstAttribute="bottom" secondItem="aAE-Dx-CWe" secondAttribute="bottom" id="JM1-qD-Tlh"/>
+                <constraint firstItem="aAE-Dx-CWe" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Nkk-4r-Yw0"/>
+                <constraint firstItem="aAE-Dx-CWe" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="VHm-ST-RBD"/>
+            </constraints>
+            <size key="customSize" width="275" height="118"/>
+            <point key="canvasLocation" x="220.61068702290075" y="43.661971830985919"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

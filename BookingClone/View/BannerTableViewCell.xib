@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BannerCell" rowHeight="181" id="KGk-i7-Jjw" customClass="BannerTableViewCell" customModule="BookingClone" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="334" height="181"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="334" height="181"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Zff-1Q-MZN">
+                        <rect key="frame" x="0.0" y="40" width="334" height="141"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="334" id="NL3-sg-Zam"/>
+                            <constraint firstAttribute="height" constant="141" id="h50-w9-a5h"/>
+                        </constraints>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="LxN-S2-9hn">
+                            <size key="itemSize" width="250" height="128"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Travel More, Spend Less" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8gE-cZ-Lu8">
+                        <rect key="frame" x="15" y="16" width="304" height="20"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="8gE-cZ-Lu8" secondAttribute="trailing" constant="15" id="1eV-fV-QKi"/>
+                    <constraint firstItem="8gE-cZ-Lu8" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="2PG-eb-Eh3"/>
+                    <constraint firstAttribute="bottom" secondItem="Zff-1Q-MZN" secondAttribute="bottom" id="Kt4-G0-L6k"/>
+                    <constraint firstItem="8gE-cZ-Lu8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="VgO-qs-TfQ"/>
+                    <constraint firstItem="Zff-1Q-MZN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="hgL-g7-DEi"/>
+                    <constraint firstItem="Zff-1Q-MZN" firstAttribute="top" secondItem="8gE-cZ-Lu8" secondAttribute="bottom" constant="4" id="tXh-HA-x0j"/>
+                    <constraint firstAttribute="trailing" secondItem="Zff-1Q-MZN" secondAttribute="trailing" id="z6f-RN-Qwm"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="collectionViewBanner" destination="Zff-1Q-MZN" id="TU9-VX-4iM"/>
+                <outlet property="headingLbl" destination="8gE-cZ-Lu8" id="piY-IJ-9M6"/>
+            </connections>
+            <point key="canvasLocation" x="59.541984732824424" y="67.957746478873247"/>
+        </tableViewCell>
+    </objects>
+</document>

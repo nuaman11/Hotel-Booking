@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TypesOfpropertyCollectionViewCell" customModule="BookingClone" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="267" height="80"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="267" height="80"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zQ1-qA-6Tx">
+                        <rect key="frame" x="0.0" y="0.0" width="267" height="50"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GnQ-BH-wQz">
+                                <rect key="frame" x="5" y="5" width="257" height="40"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Double" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ApP-V0-OBT">
+                                        <rect key="frame" x="10" y="10" width="237" height="20"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="ApP-V0-OBT" secondAttribute="trailing" constant="10" id="7OZ-bb-zSn"/>
+                                    <constraint firstItem="ApP-V0-OBT" firstAttribute="top" secondItem="GnQ-BH-wQz" secondAttribute="top" constant="10" id="E3M-h8-XCF"/>
+                                    <constraint firstItem="ApP-V0-OBT" firstAttribute="leading" secondItem="GnQ-BH-wQz" secondAttribute="leading" constant="10" id="dvX-20-aAl"/>
+                                    <constraint firstAttribute="bottom" secondItem="ApP-V0-OBT" secondAttribute="bottom" constant="10" id="yfu-nZ-SwZ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="GnQ-BH-wQz" firstAttribute="leading" secondItem="zQ1-qA-6Tx" secondAttribute="leading" constant="5" id="Ae4-9i-nNc"/>
+                            <constraint firstAttribute="bottom" secondItem="GnQ-BH-wQz" secondAttribute="bottom" constant="5" id="HaL-jU-eNr"/>
+                            <constraint firstItem="GnQ-BH-wQz" firstAttribute="top" secondItem="zQ1-qA-6Tx" secondAttribute="top" constant="5" id="Lgc-Td-pfa"/>
+                            <constraint firstAttribute="height" constant="50" id="haz-xt-ypb"/>
+                            <constraint firstAttribute="trailing" secondItem="GnQ-BH-wQz" secondAttribute="trailing" constant="5" id="yig-Td-LfQ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="zQ1-qA-6Tx" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="4my-hF-03E"/>
+                <constraint firstAttribute="trailing" secondItem="zQ1-qA-6Tx" secondAttribute="trailing" id="ERF-bF-MkE"/>
+                <constraint firstItem="zQ1-qA-6Tx" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ef1-PG-PWR"/>
+                <constraint firstAttribute="bottom" secondItem="zQ1-qA-6Tx" secondAttribute="bottom" id="uBA-KP-u48"/>
+            </constraints>
+            <size key="customSize" width="267" height="80"/>
+            <connections>
+                <outlet property="selectedView" destination="GnQ-BH-wQz" id="oEr-ae-XNt"/>
+                <outlet property="typeLabel" destination="ApP-V0-OBT" id="vlx-pr-aHW"/>
+            </connections>
+            <point key="canvasLocation" x="141.22137404580153" y="29.577464788732396"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

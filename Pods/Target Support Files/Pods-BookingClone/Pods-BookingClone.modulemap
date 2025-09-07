@@ -1,0 +1,6 @@
+framework module Pods_BookingClone {
+  umbrella header "Pods-BookingClone-umbrella.h"
+
+  export *
+  module * { export * }
+}

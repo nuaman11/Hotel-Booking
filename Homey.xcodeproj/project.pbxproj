@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		067A11FE2E1535910082308A /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 067A11FD2E1535910082308A /* Kingfisher */; };
+		06A44A6C2E0B3504009DC394 /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 06A44A6B2E0B3504009DC394 /* GoogleMaps */; };
+		2792829EA2A460AE53E88671 /* Pods_BookingClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FD270A09BB90D7500458CC /* Pods_BookingClone.framework */; };
+		42C374B8ABAF99B78A3955B8 /* Pods_BookingCloneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43AF116399875E81032C6F41 /* Pods_BookingCloneTests.framework */; };
+		78C669ED0AE55BE54A07BA8E /* Pods_BookingClone_BookingCloneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC0EB2F2E1DF548780F1840 /* Pods_BookingClone_BookingCloneUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		068BEA472DFD8588002448F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 068BEA282DFD8587002448F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 068BEA2F2DFD8587002448F5;
+			remoteInfo = BookingClone;
+		};
+		068BEA512DFD8589002448F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 068BEA282DFD8587002448F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 068BEA2F2DFD8587002448F5;
+			remoteInfo = BookingClone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		068BEA302DFD8587002448F5 /* BookingClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookingClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		068BEA462DFD8588002448F5 /* BookingCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookingCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		068BEA502DFD8589002448F5 /* BookingCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookingCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25FD270A09BB90D7500458CC /* Pods_BookingClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookingClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CC0EB2F2E1DF548780F1840 /* Pods_BookingClone_BookingCloneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookingClone_BookingCloneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43AF116399875E81032C6F41 /* Pods_BookingCloneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookingCloneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FE03A6F7356A3D06541F4C0 /* Pods-BookingClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookingClone.release.xcconfig"; path = "Target Support Files/Pods-BookingClone/Pods-BookingClone.release.xcconfig"; sourceTree = "<group>"; };
+		B41CEDD65002212074848B97 /* Pods-BookingCloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookingCloneTests.debug.xcconfig"; path = "Target Support Files/Pods-BookingCloneTests/Pods-BookingCloneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B98EC170E56154DFF91C3BFE /* Pods-BookingClone-BookingCloneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookingClone-BookingCloneUITests.release.xcconfig"; path = "Target Support Files/Pods-BookingClone-BookingCloneUITests/Pods-BookingClone-BookingCloneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D5E4C9247BC0106B30CF1326 /* Pods-BookingClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookingClone.debug.xcconfig"; path = "Target Support Files/Pods-BookingClone/Pods-BookingClone.debug.xcconfig"; sourceTree = "<group>"; };
+		FCE5010930CFEF70A4659614 /* Pods-BookingClone-BookingCloneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookingClone-BookingCloneUITests.debug.xcconfig"; path = "Target Support Files/Pods-BookingClone-BookingCloneUITests/Pods-BookingClone-BookingCloneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE8FF74E06504B4C2C665888 /* Pods-BookingCloneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookingCloneTests.release.xcconfig"; path = "Target Support Files/Pods-BookingCloneTests/Pods-BookingCloneTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		068BEA582DFD8589002448F5 /* Exceptions for "BookingClone" folder in "BookingClone" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 068BEA2F2DFD8587002448F5 /* BookingClone */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		068BEA322DFD8587002448F5 /* BookingClone */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				068BEA582DFD8589002448F5 /* Exceptions for "BookingClone" folder in "BookingClone" target */,
+			);
+			path = BookingClone;
+			sourceTree = "<group>";
+		};
+		068BEA492DFD8588002448F5 /* BookingCloneTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BookingCloneTests;
+			sourceTree = "<group>";
+		};
+		068BEA532DFD8589002448F5 /* BookingCloneUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BookingCloneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		068BEA2D2DFD8587002448F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067A11FE2E1535910082308A /* Kingfisher in Frameworks */,
+				06A44A6C2E0B3504009DC394 /* GoogleMaps in Frameworks */,
+				2792829EA2A460AE53E88671 /* Pods_BookingClone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		068BEA432DFD8588002448F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C374B8ABAF99B78A3955B8 /* Pods_BookingCloneTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		068BEA4D2DFD8589002448F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C669ED0AE55BE54A07BA8E /* Pods_BookingClone_BookingCloneUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		068BEA272DFD8587002448F5 = {
+			isa = PBXGroup;
+			children = (
+				068BEA322DFD8587002448F5 /* BookingClone */,
+				068BEA492DFD8588002448F5 /* BookingCloneTests */,
+				068BEA532DFD8589002448F5 /* BookingCloneUITests */,
+				068BEA312DFD8587002448F5 /* Products */,
+				C2F811C932B3C93BE96F9599 /* Pods */,
+				CE38C8064392AC5B9BF7597E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		068BEA312DFD8587002448F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				068BEA302DFD8587002448F5 /* BookingClone.app */,
+				068BEA462DFD8588002448F5 /* BookingCloneTests.xctest */,
+				068BEA502DFD8589002448F5 /* BookingCloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2F811C932B3C93BE96F9599 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5E4C9247BC0106B30CF1326 /* Pods-BookingClone.debug.xcconfig */,
+				8FE03A6F7356A3D06541F4C0 /* Pods-BookingClone.release.xcconfig */,
+				FCE5010930CFEF70A4659614 /* Pods-BookingClone-BookingCloneUITests.debug.xcconfig */,
+				B98EC170E56154DFF91C3BFE /* Pods-BookingClone-BookingCloneUITests.release.xcconfig */,
+				B41CEDD65002212074848B97 /* Pods-BookingCloneTests.debug.xcconfig */,
+				FE8FF74E06504B4C2C665888 /* Pods-BookingCloneTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE38C8064392AC5B9BF7597E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25FD270A09BB90D7500458CC /* Pods_BookingClone.framework */,
+				2CC0EB2F2E1DF548780F1840 /* Pods_BookingClone_BookingCloneUITests.framework */,
+				43AF116399875E81032C6F41 /* Pods_BookingCloneTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		068BEA2F2DFD8587002448F5 /* BookingClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 068BEA592DFD8589002448F5 /* Build configuration list for PBXNativeTarget "BookingClone" */;
+			buildPhases = (
+				D817E4DF5F3661C1D52DDD2F /* [CP] Check Pods Manifest.lock */,
+				068BEA2C2DFD8587002448F5 /* Sources */,
+				068BEA2D2DFD8587002448F5 /* Frameworks */,
+				068BEA2E2DFD8587002448F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				068BEA322DFD8587002448F5 /* BookingClone */,
+			);
+			name = BookingClone;
+			productName = BookingClone;
+			productReference = 068BEA302DFD8587002448F5 /* BookingClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		068BEA452DFD8588002448F5 /* BookingCloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 068BEA5E2DFD8589002448F5 /* Build configuration list for PBXNativeTarget "BookingCloneTests" */;
+			buildPhases = (
+				0CFD189EDF7C2CD07B19ACF6 /* [CP] Check Pods Manifest.lock */,
+				068BEA422DFD8588002448F5 /* Sources */,
+				068BEA432DFD8588002448F5 /* Frameworks */,
+				068BEA442DFD8588002448F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				068BEA482DFD8588002448F5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				068BEA492DFD8588002448F5 /* BookingCloneTests */,
+			);
+			name = BookingCloneTests;
+			productName = BookingCloneTests;
+			productReference = 068BEA462DFD8588002448F5 /* BookingCloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		068BEA4F2DFD8589002448F5 /* BookingCloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 068BEA612DFD8589002448F5 /* Build configuration list for PBXNativeTarget "BookingCloneUITests" */;
+			buildPhases = (
+				4803E5734EA721B9B8D3EFCC /* [CP] Check Pods Manifest.lock */,
+				068BEA4C2DFD8589002448F5 /* Sources */,
+				068BEA4D2DFD8589002448F5 /* Frameworks */,
+				068BEA4E2DFD8589002448F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				068BEA522DFD8589002448F5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				068BEA532DFD8589002448F5 /* BookingCloneUITests */,
+			);
+			name = BookingCloneUITests;
+			productName = BookingCloneUITests;
+			productReference = 068BEA502DFD8589002448F5 /* BookingCloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		068BEA282DFD8587002448F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					068BEA2F2DFD8587002448F5 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					068BEA452DFD8588002448F5 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 068BEA2F2DFD8587002448F5;
+					};
+					068BEA4F2DFD8589002448F5 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 068BEA2F2DFD8587002448F5;
+					};
+				};
+			};
+			buildConfigurationList = 068BEA2B2DFD8587002448F5 /* Build configuration list for PBXProject "Homey" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 068BEA272DFD8587002448F5;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				06BBE2162E0B303C002C682A /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
+				067A11FC2E1535910082308A /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 068BEA312DFD8587002448F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				068BEA2F2DFD8587002448F5 /* BookingClone */,
+				068BEA452DFD8588002448F5 /* BookingCloneTests */,
+				068BEA4F2DFD8589002448F5 /* BookingCloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		068BEA2E2DFD8587002448F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		068BEA442DFD8588002448F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		068BEA4E2DFD8589002448F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CFD189EDF7C2CD07B19ACF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BookingCloneTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4803E5734EA721B9B8D3EFCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BookingClone-BookingCloneUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D817E4DF5F3661C1D52DDD2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BookingClone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		068BEA2C2DFD8587002448F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		068BEA422DFD8588002448F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		068BEA4C2DFD8589002448F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		068BEA482DFD8588002448F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 068BEA2F2DFD8587002448F5 /* BookingClone */;
+			targetProxy = 068BEA472DFD8588002448F5 /* PBXContainerItemProxy */;
+		};
+		068BEA522DFD8589002448F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 068BEA2F2DFD8587002448F5 /* BookingClone */;
+			targetProxy = 068BEA512DFD8589002448F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		068BEA5A2DFD8589002448F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5E4C9247BC0106B30CF1326 /* Pods-BookingClone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BookingClone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = homeys.BookingClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		068BEA5B2DFD8589002448F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FE03A6F7356A3D06541F4C0 /* Pods-BookingClone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BookingClone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = homeys.BookingClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		068BEA5C2DFD8589002448F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		068BEA5D2DFD8589002448F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		068BEA5F2DFD8589002448F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B41CEDD65002212074848B97 /* Pods-BookingCloneTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = homeys.BookingCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookingClone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BookingClone";
+			};
+			name = Debug;
+		};
+		068BEA602DFD8589002448F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE8FF74E06504B4C2C665888 /* Pods-BookingCloneTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = homeys.BookingCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookingClone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BookingClone";
+			};
+			name = Release;
+		};
+		068BEA622DFD8589002448F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCE5010930CFEF70A4659614 /* Pods-BookingClone-BookingCloneUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = homeys.BookingCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BookingClone;
+			};
+			name = Debug;
+		};
+		068BEA632DFD8589002448F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B98EC170E56154DFF91C3BFE /* Pods-BookingClone-BookingCloneUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = homeys.BookingCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BookingClone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		068BEA2B2DFD8587002448F5 /* Build configuration list for PBXProject "Homey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				068BEA5C2DFD8589002448F5 /* Debug */,
+				068BEA5D2DFD8589002448F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		068BEA592DFD8589002448F5 /* Build configuration list for PBXNativeTarget "BookingClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				068BEA5A2DFD8589002448F5 /* Debug */,
+				068BEA5B2DFD8589002448F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		068BEA5E2DFD8589002448F5 /* Build configuration list for PBXNativeTarget "BookingCloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				068BEA5F2DFD8589002448F5 /* Debug */,
+				068BEA602DFD8589002448F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		068BEA612DFD8589002448F5 /* Build configuration list for PBXNativeTarget "BookingCloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				068BEA622DFD8589002448F5 /* Debug */,
+				068BEA632DFD8589002448F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		067A11FC2E1535910082308A /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.3.3;
+			};
+		};
+		06BBE2162E0B303C002C682A /* XCRemoteSwiftPackageReference "ios-maps-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-maps-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		067A11FD2E1535910082308A /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 067A11FC2E1535910082308A /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		06A44A6B2E0B3504009DC394 /* GoogleMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 06BBE2162E0B303C002C682A /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMaps;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 068BEA282DFD8587002448F5 /* Project object */;
+}
